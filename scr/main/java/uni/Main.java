@@ -44,5 +44,7 @@ public class Main {
         nerd.handle(s1);
         nerd.handle(s2);
         nerd.handle(s3);
+        
     }
+    
 }
