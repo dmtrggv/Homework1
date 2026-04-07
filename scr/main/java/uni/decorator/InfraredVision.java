@@ -8,7 +8,9 @@ public class InfraredVision extends StudentDecorator {
         super(student);
     }
 
-    public String getType() {
-        return student.getType() + " + Infrared Vision";
+    @Override
+    public String getPower() {
+        return super.getPower() + " InfraredVision";
     }
+    
 }
