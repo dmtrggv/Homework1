@@ -8,7 +8,9 @@ public class WrinkledForehead extends StudentDecorator {
         super(student);
     }
 
-    public String getType() {
-        return student.getType() + " + Wrinkled Forehead";
+    @Override
+    public String getPower() {
+        return super.getPower() + " WrinkledForehead";
     }
+    
 }
