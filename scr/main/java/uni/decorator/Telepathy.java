@@ -8,7 +8,9 @@ public class Telepathy extends StudentDecorator {
         super(student);
     }
 
-    public String getType() {
-        return student.getType() + " + Telepathy";
+    @Override
+    public String getPower() {
+        return super.getPower() + " Telepathy";
     }
+    
 }
